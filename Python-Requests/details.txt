@@ -1,0 +1,12 @@
+Request Web Pages
+Download Images
+POST Data
+Read JSON
+and More
+
+how to use the Requests library. The Requests library allows us to send HTTP requests and interact with web pages. 
+How to grab the source code of a site, download images, POST form data to routes, read JSON responses, perform authentication, and more
+
+
+
+Coreyms -----> https://www.youtube.com/watch?v=tb8gHvYlCFs&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=23
