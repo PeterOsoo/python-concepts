@@ -22,4 +22,5 @@ def days_in_month(year, month):
     return month_days[month]
 
 
-print(days_in_month(2020, 7))
+print(days_in_month(2020, 10))
+print(is_leap(2020))
