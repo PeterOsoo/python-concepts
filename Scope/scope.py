@@ -27,3 +27,24 @@ def outer():
 outer()
 print(x)
 print(a)
+
+
+# avoid using global statements
+def test():
+    global x
+
+    x = 'local x'
+    print(x)
+
+
+test()
+
+# Variable Scope - Understanding the LEGB rule and global/nonlocal statements
+
+
+# Built-in
+m = min([4, 3, 5, 2, 6, 1])
+print('minimum value: ' + str(m))
+
+# nonlocal x
+# nonlocal statement used more times than global
