@@ -23,9 +23,12 @@ Mr. T
 sentence = 'Start a sentence and then bring it to an end'
 
 # r for raw string
-pattern = re.compile(r'abc')
+# pattern = re.compile(r'abc')
 
-pattern = re.compile(r'ratengd\.com')
+# pattern = re.compile(r'ratengd\.com')
+
+pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
+
 
 matches = pattern.finditer(text_to_search)
 
