@@ -27,7 +27,7 @@ sentence = 'Start a sentence and then bring it to an end'
 
 # pattern = re.compile(r'ratengd\.com')
 
-pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
+pattern = re.compile(r'\d\d\d.\d\d\d[-.]\d\d\d\d')
 
 
 matches = pattern.finditer(text_to_search)
