@@ -39,3 +39,13 @@ print(text_to_search[1:4])
 
 
 # span is beginning and end index of match
+pattern = re.compile(r'[89]00[-.]\d\d\d[-.]\d\d\d\d')
+
+
+with open('data.txt', 'r', encoding='utf-8') as f:
+    contents = f.read()
+
+    matches = pattern.finditer(contents)
+
+    for match in matches:
+        print(match)
