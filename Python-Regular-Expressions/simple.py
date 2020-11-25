@@ -7,7 +7,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Ha HaHa
 MetaCharacters (Need to be escaped):
 . ^ $ * + ? { } [ ] \ | ( )
-coreyms.com
+ratengd.com
 321-555-4321
 123.555.1234
 123*555*1234
@@ -24,6 +24,8 @@ sentence = 'Start a sentence and then bring it to an end'
 
 # r for raw string
 pattern = re.compile(r'abc')
+
+pattern = re.compile(r'ratengd\.com')
 
 matches = pattern.finditer(text_to_search)
 
