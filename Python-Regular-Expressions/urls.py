@@ -10,7 +10,11 @@ https://www.nasa.gov
 # add groups
 pattern = re.compile(r'https?://(www\.)?(\w+)(\.\w+)')
 
-matches = pattern.finditer(urls)
+subbed_urls = pattern.sub(r'\2\3', urls)
 
-for match in matches:
-    print(match.group(2))
+print(subbed_urls)
+
+# matches = pattern.finditer(urls)
+
+# for match in matches:
+#     print(match.group(2))
