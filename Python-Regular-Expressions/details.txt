@@ -1,0 +1,7 @@
+Other RegEx Functions/Methods
+
+
+1. finditer 
+2. findall 
+3. match - does not return an iterable, search at the beginning
+4. search - searches the entire string
