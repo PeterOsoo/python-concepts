@@ -20,13 +20,22 @@ class Person:
 
 
 def quack_and_fly(thing):
-    pass
+    # pass
     # Not Duck-Typed (Non-Pythonic)
-    if isinstance(thing, Duck):
+    # if isinstance(thing, Duck):
+    #     thing.quack()
+    #     thing.fly()
+    # else:
+    #     print('This has to be a Duck!')
+
+    try:
         thing.quack()
         thing.fly()
-    else:
-        print('This has to be a Duck!')
+
+        # add bark method that doesn't exist
+        thing.bark()
+    except AttributeError as e:
+        print(e)
 
     print()
 
