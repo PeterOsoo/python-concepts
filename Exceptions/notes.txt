@@ -1,0 +1,5 @@
+print more specific exceptions at the top 
+
+finally used to execute certain resources
+
+One can raise exceptions on their own 
