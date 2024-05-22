@@ -2,4 +2,4 @@
 
 
 code_snippets <br>
-learning python
+Learning Python
